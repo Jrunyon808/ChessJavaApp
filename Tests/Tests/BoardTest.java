@@ -1,4 +1,4 @@
-package Tests;
+/*package Tests;
 
 import Board.Board;
 import Pieces.*;
@@ -50,4 +50,4 @@ class BoardTest {
                     builder.build();
                 });
     }
-}
+}*/

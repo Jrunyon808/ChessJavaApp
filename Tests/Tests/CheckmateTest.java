@@ -1,4 +1,4 @@
-package Tests;
+/*package Tests;
 
 import Board.Board;
 import Board.BoardUtilities;
@@ -159,4 +159,4 @@ class CheckmateTest {
         assertTrue(tb8.getMoveStatus().isDone());
         assertTrue(tb8.getToBoard().currentPlayer().isInCheckMate());
     }
-}
+}*/
