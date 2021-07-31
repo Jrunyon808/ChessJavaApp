@@ -42,7 +42,7 @@ public class Gui {
     private final Color lightTileColor = Color.decode("#D8F5F9");
     private final Color darkTileColor = Color.decode("#198D9A");
 
-    private static String defaultPieceImagesPath = "art/pieces/";
+    private static String defaultPieceImagesPath = "src/Art/pieces/";
 
     public Gui() {
         //Setup board with JFrame
@@ -181,7 +181,7 @@ public class Gui {
             for (final Move move : pieceLegalMoves(board)) {
                 if (move.getDestinationCoordinate() == this.tileId && !board.getTile(this.tileId).isTileOccupied()) {
                     try {
-                        JLabel label = new JLabel(new ImageIcon("art/misc/GreyDot.png"));
+                        JLabel label = new JLabel(new ImageIcon("src/Art/misc/GreyDot.png"));
                         add(label);
                     } catch (Exception e) {
                         e.printStackTrace();
